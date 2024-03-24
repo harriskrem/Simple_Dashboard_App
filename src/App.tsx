@@ -45,7 +45,7 @@ function App() {
           </div>
           {validateFields() ?
             <>
-              <div className='w-96 h-60 md:h-full md:w-full'>
+              <div className='w-96 h-60 lg:h-full md:w-full'>
                 <StackedBar data={laytimeData} />
               </div>
               <div>
