@@ -2,10 +2,8 @@ import { useState, useEffect } from 'react'
 import Spinner from './components/spinner/spinner.component';
 import { StackedBar, SimpleBar, LineChart, DoughnutChart } from './components/charts';
 import { LayTime, DeadTime, BirthOccupancy, VariousMetrics } from './types';
-import getLaytime from './services/getLaytime';
-import getDeadTime from './services/getDeadTime';
-import getBirthOccupancy from './services/getBirthOccupancy';
-import getVariousMetrics from './services/getVariousMetrics';
+import { getBirthOccupancy, getDeadTime, getLaytime, getVariousMetrics } from './services';
+
 
 function App() {
 
